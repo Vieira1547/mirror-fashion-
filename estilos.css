@@ -1,6 +1,6 @@
 /* --- ||| COMPONENTES ||| --- */
 
-body{
+#bsobre {
     color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-left: auto;
@@ -9,19 +9,49 @@ body{
 
 }
 
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 940px;
+}
+
+header{
+    position: relative;
+}
+
 .sacola {
-    background-image: url();
+    background-image: url(caelum-arquivos-curso-web/mirrorfashion/img/sacola.png);
     background-repeat: no-repeat;
     background-position: top right;
+    position: absolute;
+    top: 0;
+    right: 0;
 
     font-size: 14px;
     padding-right: 35px;
+    padding-top: 8px;
     text-align: right;
     width: 140px;
 }
 
+.menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 .menu-opcoes ul{
     font-size: 15px;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
 }
 
 .menu-opcoes a{
@@ -29,8 +59,11 @@ body{
 }
 
 h1{
-    background-color: rgb(168, 168, 168);
     padding: 10px;
+}
+
+#h1sobre{
+    background-image: url(caelum-arquivos-curso-web/mirrorfashion/img/sobre-background.jpg);
 }
 
 h2{
